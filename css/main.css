@@ -16,7 +16,7 @@
 @keyframes wiggle {
 
   0% {
-    transform: translateX(0em);
+    transform: translateX(0);
   }
 
   40% {
@@ -28,7 +28,7 @@
   }
 
   100% {
-    transform: translateX(0em);
+    transform: translateX(0);
   }
 
 }
