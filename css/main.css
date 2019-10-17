@@ -1,0 +1,34 @@
+#right-ear,
+#left-ear {
+  transition: .5s linear;
+}
+
+#bear:hover #right-ear,
+#bear:hover #left-ear {
+  transform: translateY(-5px);
+}
+
+#right-eye,
+#left-eye {
+  animation: wiggle 3s linear infinite;
+}
+
+@keyframes wiggle {
+
+  0% {
+    transform: translateX(0em);
+  }
+
+  40% {
+    transform: translateX(-1em);
+  }
+
+  80% {
+    transform: translateX(1em);
+  }
+
+  100% {
+    transform: translateX(0em);
+  }
+
+}
